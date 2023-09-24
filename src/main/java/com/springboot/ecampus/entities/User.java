@@ -17,6 +17,7 @@ public class User {
 	@GeneratedValue
 	 private Long id;
 	
+	
 	@Column(name ="USER_NAME", length=50, nullable =false, unique =true )
 	 private String username;
 	@Column(name="FIRST_NAME", length=50, nullable=false)
